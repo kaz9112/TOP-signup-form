@@ -1,0 +1,44 @@
+make html barebone
+like this
+    flex container reverse-row
+
+    flex container column
+
+        h2 this is
+        h2 you know you
+
+        form
+            h2 lets do this
+
+            flex container row
+                label
+                input name required
+
+                label
+                input last name required
+
+            flex container row   
+                label
+                input email rqeuired
+
+                label
+                input phone number (number only)
+
+            flex container row (needs to be same as each other, use js)
+                label
+                input password rqeuired
+
+                label
+                input password confirmations (number only)
+        
+        button create account
+
+        p already have an account? <clickable>log in<clickable>
+
+    Image heroes
+
+make styling
+
+
+script js
+
