@@ -349,26 +349,37 @@ display: none;
 }
 /* Default Styles End */
 
+@font-face {
+    font-family: the-font;
+    src: url(source/Norse-Bold.otf);
+  }
+
+
 body {
     display: flex;
     flex-direction: row-reverse;
     gap: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .form-container {
     display: flex;
     flex-direction: column;
     margin-right: 15vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
 .input-row-container {
     display: flex;
 }
 
-.upper-text {
-    max-width: 480px;
+.input-column-container {
+    display: flex;
+    flex-direction: column;
 }
 
-img {
-    width: 100vw;
+.upper-text {
+    max-width: 480px;
 }
