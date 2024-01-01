@@ -49,4 +49,6 @@ make styling
 script js
     get password input from html
     get confirm passw input from html
-    if confirm passw != passw, show error
+
+    if 
+    else if confirm passw != passw, show error
