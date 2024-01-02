@@ -406,6 +406,10 @@ input {
     border-radius: 5px;
 }
 
+/* #confirmed-password, #password{
+    border: 1px solid rgb(70, 187, 70)
+} */
+
 .left-half {
     display: flex;
     background-image: url('source/halie-west-25xggax4bSA-unsplash.jpg');

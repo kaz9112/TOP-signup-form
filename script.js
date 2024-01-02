@@ -6,8 +6,11 @@ confirmedPassword.addEventListener('input', function() {
     let confirmedPasswordValue = confirmedPassword.value
 
     if (confirmedPasswordValue == newPasswordValue) {
-        console.log('great')
+        newPassword.style.borderColor = 'rgb(70, 187, 70)'
+        confirmedPassword.style.borderColor = 'rgb(70, 187, 70)'
+
     } else if (confirmedPasswordValue != newPasswordValue) {
-        console.log('fuck')
+        newPassword.style.borderColor = 'red'
+        confirmedPassword.style.borderColor = 'red'
     }
 })

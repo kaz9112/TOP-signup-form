@@ -50,5 +50,9 @@ script js
     get password input from html
     get confirm passw input from html
 
-    if 
+    if confirm passw == ''
+        pass
     else if confirm passw != passw, show error
+        change border color to red
+    else if confirm passw == pass
+        change border color to green
